@@ -1,0 +1,6 @@
+[submodule "vendor/moro8asm"]
+	path = vendor/moro8asm
+	url = https://github.com/Nauja/moro8asm.git
+[submodule "vendor/moro8"]
+	path = vendor/moro8
+	url = https://github.com/Nauja/moro8.git
