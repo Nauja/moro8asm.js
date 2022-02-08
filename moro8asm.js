@@ -42,6 +42,102 @@ Module['ready'] = new Promise(function(resolve, reject) {
       }
     
 
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_instruction_create')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_create', { configurable: true, get: function() { abort('You are getting _moro8asm_instruction_create on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_create', { configurable: true, set: function() { abort('You are setting _moro8asm_instruction_create on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_instruction_delete')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_delete', { configurable: true, get: function() { abort('You are getting _moro8asm_instruction_delete on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_delete', { configurable: true, set: function() { abort('You are setting _moro8asm_instruction_delete on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_instruction_get_pc')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_pc', { configurable: true, get: function() { abort('You are getting _moro8asm_instruction_get_pc on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_pc', { configurable: true, set: function() { abort('You are setting _moro8asm_instruction_get_pc on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_instruction_get_line')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_line', { configurable: true, get: function() { abort('You are getting _moro8asm_instruction_get_line on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_line', { configurable: true, set: function() { abort('You are setting _moro8asm_instruction_get_line on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_instruction_get_size')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_size', { configurable: true, get: function() { abort('You are getting _moro8asm_instruction_get_size on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_size', { configurable: true, set: function() { abort('You are setting _moro8asm_instruction_get_size on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_instruction_get_next')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_next', { configurable: true, get: function() { abort('You are getting _moro8asm_instruction_get_next on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_instruction_get_next', { configurable: true, set: function() { abort('You are setting _moro8asm_instruction_get_next on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_program_create')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_program_create', { configurable: true, get: function() { abort('You are getting _moro8asm_program_create on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_program_create', { configurable: true, set: function() { abort('You are setting _moro8asm_program_create on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_program_delete')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_program_delete', { configurable: true, get: function() { abort('You are getting _moro8asm_program_delete on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_program_delete', { configurable: true, set: function() { abort('You are setting _moro8asm_program_delete on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_program_get_label')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_program_get_label', { configurable: true, get: function() { abort('You are getting _moro8asm_program_get_label on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_program_get_label', { configurable: true, set: function() { abort('You are setting _moro8asm_program_get_label on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_program_num_labels')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_program_num_labels', { configurable: true, get: function() { abort('You are getting _moro8asm_program_num_labels on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_program_num_labels', { configurable: true, set: function() { abort('You are setting _moro8asm_program_num_labels on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_program_get_line')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_program_get_line', { configurable: true, get: function() { abort('You are getting _moro8asm_program_get_line on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_program_get_line', { configurable: true, set: function() { abort('You are setting _moro8asm_program_get_line on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_program_num_lines')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_program_num_lines', { configurable: true, get: function() { abort('You are getting _moro8asm_program_num_lines on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_program_num_lines', { configurable: true, set: function() { abort('You are setting _moro8asm_program_num_lines on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_program_size')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_program_size', { configurable: true, get: function() { abort('You are getting _moro8asm_program_size on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_program_size', { configurable: true, set: function() { abort('You are setting _moro8asm_program_size on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_tokenize')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_tokenize', { configurable: true, get: function() { abort('You are getting _moro8asm_tokenize on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_tokenize', { configurable: true, set: function() { abort('You are setting _moro8asm_tokenize on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_parse')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_parse', { configurable: true, get: function() { abort('You are getting _moro8asm_parse on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_parse', { configurable: true, set: function() { abort('You are setting _moro8asm_parse on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
+      if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_assemble')) {
+        Object.defineProperty(Module['ready'], '_moro8asm_assemble', { configurable: true, get: function() { abort('You are getting _moro8asm_assemble on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+        Object.defineProperty(Module['ready'], '_moro8asm_assemble', { configurable: true, set: function() { abort('You are setting _moro8asm_assemble on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
+      }
+    
+
       if (!Object.getOwnPropertyDescriptor(Module['ready'], '_moro8asm_compile')) {
         Object.defineProperty(Module['ready'], '_moro8asm_compile', { configurable: true, get: function() { abort('You are getting _moro8asm_compile on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
         Object.defineProperty(Module['ready'], '_moro8asm_compile', { configurable: true, set: function() { abort('You are setting _moro8asm_compile on the Promise object, instead of the instance. Use .then() to get called back with the instance, see the MODULARIZE docs in src/settings.js') } });
@@ -2028,6 +2124,54 @@ var _malloc = Module["_malloc"] = createExportWrapper("malloc");
 var _free = Module["_free"] = createExportWrapper("free");
 
 /** @type {function(...*):?} */
+var _moro8asm_instruction_create = Module["_moro8asm_instruction_create"] = createExportWrapper("moro8asm_instruction_create");
+
+/** @type {function(...*):?} */
+var _moro8asm_instruction_delete = Module["_moro8asm_instruction_delete"] = createExportWrapper("moro8asm_instruction_delete");
+
+/** @type {function(...*):?} */
+var _moro8asm_instruction_get_pc = Module["_moro8asm_instruction_get_pc"] = createExportWrapper("moro8asm_instruction_get_pc");
+
+/** @type {function(...*):?} */
+var _moro8asm_instruction_get_line = Module["_moro8asm_instruction_get_line"] = createExportWrapper("moro8asm_instruction_get_line");
+
+/** @type {function(...*):?} */
+var _moro8asm_instruction_get_size = Module["_moro8asm_instruction_get_size"] = createExportWrapper("moro8asm_instruction_get_size");
+
+/** @type {function(...*):?} */
+var _moro8asm_instruction_get_next = Module["_moro8asm_instruction_get_next"] = createExportWrapper("moro8asm_instruction_get_next");
+
+/** @type {function(...*):?} */
+var _moro8asm_program_create = Module["_moro8asm_program_create"] = createExportWrapper("moro8asm_program_create");
+
+/** @type {function(...*):?} */
+var _moro8asm_program_delete = Module["_moro8asm_program_delete"] = createExportWrapper("moro8asm_program_delete");
+
+/** @type {function(...*):?} */
+var _moro8asm_program_get_label = Module["_moro8asm_program_get_label"] = createExportWrapper("moro8asm_program_get_label");
+
+/** @type {function(...*):?} */
+var _moro8asm_program_num_labels = Module["_moro8asm_program_num_labels"] = createExportWrapper("moro8asm_program_num_labels");
+
+/** @type {function(...*):?} */
+var _moro8asm_program_get_line = Module["_moro8asm_program_get_line"] = createExportWrapper("moro8asm_program_get_line");
+
+/** @type {function(...*):?} */
+var _moro8asm_program_num_lines = Module["_moro8asm_program_num_lines"] = createExportWrapper("moro8asm_program_num_lines");
+
+/** @type {function(...*):?} */
+var _moro8asm_program_size = Module["_moro8asm_program_size"] = createExportWrapper("moro8asm_program_size");
+
+/** @type {function(...*):?} */
+var _moro8asm_tokenize = Module["_moro8asm_tokenize"] = createExportWrapper("moro8asm_tokenize");
+
+/** @type {function(...*):?} */
+var _moro8asm_parse = Module["_moro8asm_parse"] = createExportWrapper("moro8asm_parse");
+
+/** @type {function(...*):?} */
+var _moro8asm_assemble = Module["_moro8asm_assemble"] = createExportWrapper("moro8asm_assemble");
+
+/** @type {function(...*):?} */
 var _moro8asm_compile = Module["_moro8asm_compile"] = createExportWrapper("moro8asm_compile");
 
 /** @type {function(...*):?} */
@@ -2468,6 +2612,93 @@ function pop_array(ptr, buffer, size) {
     }
     moro8asm._free(ptr);
 }
+class Instruction {
+    constructor(ptr) {
+        this._ptr = ptr;
+        this._manage_memory = false;
+        if (this._ptr === undefined) {
+            this._ptr = moro8asm.ccall("moro8asm_instruction_create", "number", null, null);
+            this._manage_memory = true;
+        }
+    }
+    get ptr() {
+        return this._ptr;
+    }
+    get pc() {
+        return moro8asm.ccall("moro8asm_instruction_get_pc", "number", ["number"], [this.ptr]);
+    }
+    get line() {
+        return moro8asm.ccall("moro8asm_instruction_get_line", "number", ["number"], [this.ptr]);
+    }
+    get size() {
+        return moro8asm.ccall("moro8asm_instruction_get_size", "number", ["number"], [this.ptr]);
+    }
+    get next() {
+        if (!this._next) {
+            this._next = new Instruction(moro8asm.ccall("moro8asm_instruction_get_next", "number", ["number"], [this.ptr]));
+        }
+        return this._next;
+    }
+    delete() {
+        if (this._ptr === undefined) {
+            return;
+        }
+        if (this._manage_memory) {
+            moro8asm.ccall("moro8asm_instruction_delete", null, "number", [this._ptr]);
+        }
+        this._ptr = undefined;
+    }
+}
+class Program {
+    constructor(ptr) {
+        this._ptr = ptr;
+        this._manage_memory = false;
+        if (this._ptr === undefined) {
+            this._ptr = moro8asm.ccall("moro8asm_program_create", "number", null, null);
+            this._manage_memory = true;
+        }
+    }
+    get ptr() {
+        return this._ptr;
+    }
+    get num_labels() {
+        return moro8asm.ccall("moro8asm_program_num_labels", "number", ["number"], [this.ptr]);
+    }
+    get num_lines() {
+        return moro8asm.ccall("moro8asm_program_num_lines", "number", ["number"], [this.ptr]);
+    }
+    get size() {
+        return moro8asm.ccall("moro8asm_program_size", "number", ["number"], [this.ptr]);
+    }
+    delete() {
+        if (this._ptr === undefined) {
+            return;
+        }
+        if (this._manage_memory) {
+            moro8asm.ccall("moro8asm_program_delete", null, "number", [this._ptr]);
+        }
+        this._ptr = undefined;
+    }
+    get_line(index) {
+        return new Instruction(moro8asm.ccall("moro8asm_program_get_line", "number", ["number", "number"], [this.ptr, index]));
+    }
+}
+function tokenize(program) {
+    // Copy the program to an Uint8Array
+    const program_buffer = new Uint8Array(program.length);
+    for (let i = 0; i < program.length; ++i) {
+        program_buffer[i] = program[i].charCodeAt(0);
+    }
+    // Copy to WASM memory
+    const program_ptr = push_array(program_buffer, program_buffer.length);
+    const token_ptr = moro8asm.ccall("moro8asm_tokenize", "number", ["number", "number"], [program_ptr, program_buffer.length]);
+    // Delete program buffer
+    pop_array(program_ptr, program_buffer, program_buffer.length);
+    return token_ptr;
+}
+function parse(token) {
+    return new Program(moro8asm.ccall("moro8asm_parse", "number", ["number"], [token]));
+}
 function compile(program) {
     // Copy the program to an Uint8Array
     const program_buffer = new Uint8Array(program.length);
@@ -2491,6 +2722,10 @@ function compile(program) {
     pop_array(bytes_ptr, bytes, bytes.length);
     return bytes;
 }
+moro8asm.Instruction = Instruction;
+moro8asm.Program = Program;
+moro8asm.tokenize = tokenize;
+moro8asm.parse = parse;
 moro8asm.compile = compile;
 
 

@@ -7,6 +7,22 @@ const ts = require('gulp-typescript');
 const MORO8ASM_EXPORTED_FUNCTIONS = [
     "_malloc",
     "_free",
+    "_moro8asm_instruction_create",
+    "_moro8asm_instruction_delete",
+    "_moro8asm_instruction_get_pc",
+    "_moro8asm_instruction_get_line",
+    "_moro8asm_instruction_get_size",
+    "_moro8asm_instruction_get_next",
+    "_moro8asm_program_create",
+    "_moro8asm_program_delete",
+    "_moro8asm_program_get_label",
+    "_moro8asm_program_num_labels",
+    "_moro8asm_program_get_line",
+    "_moro8asm_program_num_lines",
+    "_moro8asm_program_size",
+    "_moro8asm_tokenize",
+    "_moro8asm_parse",
+    "_moro8asm_assemble",
     "_moro8asm_compile",
 ];
 
@@ -51,6 +67,10 @@ gulp.task("copy-types", function () {
         .pipe(gap.prependText('import "emscripten";\n\n'))
         .pipe(gap.appendText(
 '\n\nexport interface Moro8ASMModule extends EmscriptenModule {\n' +
+'    Instruction: typeof Instruction; \n' +
+'    Program: typeof Program; \n' +
+'    tokenize: typeof tokenize; \n' +
+'    parse: typeof parse; \n' +
 '    compile: typeof compile; \n' +
 '}\n' +
 '\n' +
